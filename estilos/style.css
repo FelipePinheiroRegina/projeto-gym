@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: treino;
+    src: url(../fontes/treino.ttf);
+}
+
+:root {
+    --fonte1:'treino', Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: var(--fonte1);
+     background-color: yellow;
+}
+
+header h1 {
+    padding: 25px;
+    font-size: 8vw;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
+}
+
+div#hamb {
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+}
+
+div > span:hover {
+    background-color: white;
+    border-radius: 50%;
+    
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+nav#itens {
+    font-family: var(--fonte1);
+    display: none;
+    text-align: center;
+    background-color: yellow;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.452);
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    background: yellow url(../imagens/fundo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+#treino {
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 220px;
+    
+    overflow: hidden;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#tela {
+    position: absolute;
+    height: 220px;
+    width: 350px;
+}
+
+aside {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+aside > table {
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+aside > p {
+    font-family: var(--fonte1);
+    color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid white;
+    width: 335px;
+    line-height: 25px;
+    
+}
+
+div#container {
+    background-color: white;
+    overflow-x: auto;
+    min-width: 320px;
+    height: 220px;
+    border: 1px solid white;
+}
+
+legend {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 3px;
+    font-family: var(--fonte1);
+}
+
+thead th {
+    font-family: var(--fonte1);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+table td, th {
+    border: 1px solid black;
+    padding: 3px;
+    
+    
+}
+
+table > tbody tr:nth-child(2n) {
+    background-color: yellow;
+    color: black;
+    
+}
+
+table a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+tfoot th {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 3px;
+    font-family: var(--fonte1);
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1vh;
+}
+
+footer p {
+    text-decoration: underline;
+}
+
+footer > a > img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+

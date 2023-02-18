@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musculação</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="estilos/query.css">
+</head>
+<body onresize="mudoutamanho()">
+    <header>
+        <h1>
+            Treinamento
+            <br>
+            Gym<sup>'</sup>s
+        </h1>
+       <div id="hamb" onclick="menu()">
+            <span class="material-icons" onclick="clickMenu()">menu</span>
+        </div>
+    </header>
+    <nav id="itens">
+        <ul >
+            <li><a href="peito.html" target="tela" >Peito</a></li>
+            <li><a href="costas.html" target="tela" >Costas</a></li>
+            <li><a href="ombros.html" target="tela">Ombros e Trapézio</a></li>
+            <li><a href="biceps.html" target="tela">Bíceps</a></li>
+            <li><a href="triceps.html" target="tela">Tríceps</a></li>
+            <li><a href="pernas.html" target="tela">Pernas</a></li>
+            <li><a href="abdomen.html" target="tela">Abdômen</a></li>
+            <li id="cw"><a href="login.html" target="_self" rel="next">Entrar/Simulação de Login</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+       <section id="treino">
+            <iframe src="" name="tela"  id="tela"  frameborder="0">
+
+            </iframe>
+        </section>
+
+        
+        <aside>
+            <p>
+                Veja três suplementos que ajudarão na sua evolução, Listei na tabela três marcas referência no mundo da musculação.
+            </p>
+            <div id="container">
+                <Table>
+                    <legend>Tabela de Preço</legend>
+                    <thead>
+                        <tr>
+                            <th scope="col">Marca</th>
+                            <th scope="col" >Suplemento</th>
+                            <th scope="col">Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="3" scope="rowgroup"><a href="https://www.gsuplementos.com.br/" target="_blank" rel="external">Growth</a></th>
+                            <td><a href="https://www.gsuplementos.com.br/creatina-monohidratada-250gr-growth-supplements-p985931" target="_blank" rel="external">Creatina (250g) <span class="material-icons">link</span></a></td>
+                            <td>R$79,92</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.gsuplementos.com.br/whey-protein-concentrado-1kg-growth-supplements-p985936" target="_blank" rel="external">Whey <br> (1Kg) <span class="material-icons">link</span></a></td>
+                            <td>R$99,00</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.gsuplementos.com.br/top-hipercalorico-sabor-chocolate-1kg-growth-supplements-p985809" target="_blank" rel="external">Hipercalórico (1Kg) <span class="material-icons">link</span></a></td>
+                            <td>R$49,50</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3" scope="rowgroup"><a href="https://www.maxtitanium.com.br/" target="_blank" rel="external">Max Titanium</a></th>
+                            <td><a href="https://www.maxtitanium.com.br/creatine-pote-300g/p?origin=autocomplete&p=cre&ranking=1&typeclick=3&ac_pos=header" target="_blank" rel="external">Creatina (300g) <span class="material-icons">link</span></a></td>
+                            <td>R$169,00</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.maxtitanium.com.br/-100--whey-refil-900g/p" target="_blank" rel="external">Whey <br> (900g) <span class="material-icons">link</span></a></td>
+                            <td>R$149.00</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.maxtitanium.com.br/masstitanium3kg/p" target="_blank" rel="external">Hipercalórico (3Kg) <span class="material-icons">link</span></a></td>
+                            <td>R$119,00</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3" scope="rowgroup"><a href="https://www.integralmedica.com.br/" target="_blank" rel="external">IntegralMedica</a></th>
+                            <td><a href="https://www.integralmedica.com.br/creatina-integralmedica/p" target="_blank" rel="external">Creatina (300g) <span class="material-icons">link</span></a></td>
+                            <td>R$209,90</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.integralmedica.com.br/whey-100-pure/p" target="_blank" rel="external">Whey <br> (900g) <span class="material-icons">link</span></a></td>
+                            <td>R$155,72</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.integralmedica.com.br/sinister-mass/p" target="_blank" rel="external">Hipercalórico (3Kg) <span class="material-icons">link</span></a></td>
+                            <td>R$105,22</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                       <tr>
+                            <th colspan="3">
+                                Preços sujeito a alteração
+                            </th>
+                        </tr>
+                    </tfoot>
+                </Table>
+            </div>
+        </aside>
+    <script src="script.js"></script>    
+    </main>
+    <footer>
+        <p>
+           &copy; Felipe Pinheiro
+        </p>
+        <br>
+        <a href="https://www.instagram.com/feh_pinheiroo/" target="_blank" rel="external"><img src="imagens/logo-instagram.jpg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/felipe-pinheiro-002427250/" target="_blank" rel="external"><img src="imagens/logo-linkedin.jpg" alt="Linkedin"></a>
+        <a href="https://github.com/FelipePinheiroRegina?tab=repositories" target="_blank" rel="external"><img src="imagens/logo-github.jpg" alt="GitHub"></a>
+        <a href="https://www.facebook.com/felipe.pinheiro.7330/" target="_blank" rel="external"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a>
+    </footer>
+    
+    
+</body>
+</html>

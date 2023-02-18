@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'academia';
+    src: url(../fontes/treino.ttf);
+}
+
+:root {
+    --fonte1: 'academia';
+    --fonte2: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+
+html,body {
+    background-color: yellow;
+}
+
+main {
+    position: absolute;
+    background-color: yellow;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+div#imagem {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 69%;
+    
+    
+}
+
+div#p {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+    background-image: linear-gradient(to right, yellow, black);
+}
+
+div#formulario {
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+div#formulario span {
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div#volta span {
+    position: relative;
+    color: black;
+    font-size: 2em;
+    
+    top: 5px;
+    left: 5px;
+
+}
+
+form  input {
+    width: 80%;
+    height: 25px;
+}
+
+form > input[type=submit], [type=reset] {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+
