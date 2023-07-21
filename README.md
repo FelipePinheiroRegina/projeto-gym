@@ -1,4 +1,4 @@
-# PROJETO GYM'S
+# 🟨PROJETO GYM'S 💪
 Criei esse site *responsivo*, para se adaptar com o dispositivo do usuário, com um treino de musculação para cada grupamento muscular, e coloquei também uma tabela onde se encontra suplementos de três marcas diferentes.
 ---
 
